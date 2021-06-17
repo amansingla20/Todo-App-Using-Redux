@@ -1,6 +1,7 @@
 import React from 'react'
 import {connect} from 'react-redux';
 import {addTodo} from '../../actions/action';
+import './AddTodo.css';
 
 const AddTodo = (props) => {
     return (
@@ -10,8 +11,8 @@ const AddTodo = (props) => {
             props.dispatch(addTodo(input));
             event.target.userInput.value ='';
         }}>
-            <input type="text" name='userInput' />
-            <input type="submit"  value ='Submit'/>
+            <input type="text" name='userInput' className='input-field'/>
+            <input type="submit"  value ='Add Todo' className='add-todo-button'/>
         </form>
     )
 }

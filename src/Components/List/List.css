@@ -1,0 +1,16 @@
+.todo-text {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.delete-todo {
+  margin-left: 20px;
+  height: 30px;
+  width: 100px;
+  background-color: #33c1ff;
+  border: none;
+}
+
+.delete-todo:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.input-field {
+  width: 250px;
+  margin-right: 20px;
+  height: 25px;
+  border: 1px solid #000;
+}
+
+.add-todo-button {
+  width: 120px;
+  height: 29px;
+  background-color: #33c1ff;
+  border: none;
+}
+
+.input-field:hover {
+  outline: none;
+}
+
+.add-todo-button:hover {
+  cursor: pointer;
+}
